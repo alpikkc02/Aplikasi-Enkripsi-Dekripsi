@@ -1,4 +1,3 @@
-/* style_index.css */
 
 body {
     font-family: Arial, sans-serif;
@@ -21,16 +20,16 @@ nav {
     color: #fff;
     padding: 40px;
     width: 100%;
-    position: fixed; /* Tambahkan ini */
-    top: 0; /* Tambahkan ini */
-    left: 0; /* Tambahkan ini */
+    position: fixed; 
+    top: 0; 
+    left: 0;
 }
 
 .container {
     text-align: center;
-    margin-top: 80px; /* Sesuaikan margin top dengan tinggi nav */
-    position: relative; /* Tambahkan ini */
-    height: calc(100vh - 20px); /* Sesuaikan tinggi dengan tinggi nav */
+    margin-top: 80px; 
+    position: relative;
+    height: calc(100vh - 20px); 
 }
 
 h1 {
@@ -83,13 +82,13 @@ input[type="submit"]:hover {
 }
 
 footer {
-    background-color: #333; /* Warna latar belakang footer */
-    color: #fff; /* Warna teks footer */
-    padding: 20px; /* Ruang dalam di sekitar konten footer */
-    text-align: center; /* Pusatkan teks pada footer */
-    position: fixed; /* Tetapkan footer di bagian bawah layar */
-    width: 100%; /* Lebar footer sama dengan lebar layar */
-    bottom: 0; /* Atur posisi footer di bagian bawah */
+    background-color: #333;
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 p {
