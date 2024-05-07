@@ -1,0 +1,98 @@
+/* style_index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    width: 100%;
+    position: fixed; /* Tambahkan ini */
+    top: 0; /* Tambahkan ini */
+    left: 0; /* Tambahkan ini */
+}
+
+.container {
+    text-align: center;
+    margin-top: 80px; /* Sesuaikan margin top dengan tinggi nav */
+    position: relative; /* Tambahkan ini */
+    height: calc(100vh - 20px); /* Sesuaikan tinggi dengan tinggi nav */
+}
+
+h1 {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+h2 {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea, input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    padding: 20px; /* Ruang dalam di sekitar konten footer */
+    text-align: center; /* Pusatkan teks pada footer */
+    position: fixed; /* Tetapkan footer di bagian bawah layar */
+    width: 100%; /* Lebar footer sama dengan lebar layar */
+    bottom: 0; /* Atur posisi footer di bagian bawah */
+}
+
+p {
+    color: #ffffff;
+    font-weight: bold;
+}

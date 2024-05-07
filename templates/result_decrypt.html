@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decryption Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_result_decrypt.css') }}">
+</head>
+<body>
+    <nav>
+        <h1>Keamanan Informasi</h1>
+        <h2>Enkripsi-Dekripsi</h2>
+        <button onclick="window.history.back();">Kembali</button>
+    </nav>
+    <h3>Decryption Result</h3>
+    <div>
+        <p>Cipher Text: {{ cipher_text }}</p>
+        <p>Key: {{ key }}</p>
+        <p>Decrypted Text: {{ plain_text }}</p>
+    </div>
+    <footer>
+        <p>Alpi Darul Hakim - 217006044</p>
+    </footer>
+</body>
+</html>

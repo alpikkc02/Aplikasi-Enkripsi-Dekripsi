@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enkripsi-Dekripsi</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_index.css') }}">
+</head>
+<body>
+    <nav>
+        <h1>Keamanan Informasi</h1>
+        <h2>Enkripsi-Dekripsi</h2>
+    </nav>
+    <form action="/encrypt" method="post">
+        <label for="plain_text">Plain Text:</label><br>
+        <textarea id="plain_text" name="plain_text" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Encrypt">
+    </form>
+    <br>
+    <form action="/decrypt" method="post">
+        <label for="cipher_text">Cipher Text:</label><br>
+        <input type="text" id="cipher_text" name="cipher_text"><br>
+        <label for="key">Key:</label><br>
+        <input type="text" id="key" name="key"><br>
+        <input type="submit" value="Decrypt">
+    </form>
+    <footer>
+        <p>Alpi Darul Hakim - 217006044</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* CSS untuk halaman result_decrypt */
+/* Anda dapat menyesuaikan gaya sesuai kebutuhan */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+    position: fixed; /* Tambahkan ini */
+    top: 0; /* Tambahkan ini */
+    left: 0; /* Tambahkan ini */
+}
+
+.container {
+    text-align: center;
+    margin-top: 80px; /* Sesuaikan margin top dengan tinggi nav */
+    position: relative; /* Tambahkan ini */
+    height: calc(100vh - 20px); /* Sesuaikan tinggi dengan tinggi nav */
+}
+
+h1 {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -10px;
+    margin-left: -50px;
+}
+
+h2 {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+button {
+    background-color: #555; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Hilangkan border tombol */
+    cursor: pointer; /* Ubah kursor menjadi pointer saat diarahkan ke tombol */
+}
+
+button:hover {
+    background-color: #777; /* Warna latar belakang tombol saat dihover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 110px;
+}
+
+h3 {
+    color: blue;
+    font-weight: bold;
+}
+
+div {
+    border: 3px solid blue;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    padding: 20px; /* Ruang dalam di sekitar konten footer */
+    text-align: center; /* Pusatkan teks pada footer */
+    position: fixed; /* Tetapkan footer di bagian bawah layar */
+    width: 100%; /* Lebar footer sama dengan lebar layar */
+    bottom: 0; /* Atur posisi footer di bagian bawah */
+    right: 0;
+}
+
+h4 {
+    color: #ffffff;
+    font-weight: bold;
+}
