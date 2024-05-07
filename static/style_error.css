@@ -1,21 +1,21 @@
 nav {
-    display: flex; /* Menggunakan flexbox untuk mengatur tata letak */
-    justify-content: space-between; /* Menyebarkan item di dalam nav secara merata */
-    align-items: center; /* Pusatkan item di dalam nav secara vertikal */
-    background-color: #333; /* Warna latar belakang nav */
-    color: #fff; /* Warna teks nav */
-    padding: 30px; /* Ruang dalam di sekitar konten nav */
-    position: fixed; /* Tetapkan nav di bagian atas layar */
-    top: 0; /* Atur posisi nav di bagian atas */
-    left: 0; /* Atur posisi nav di sisi kiri */
-    width: 100%; /* Lebar nav sama dengan lebar layar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 30px; 
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
 }
 
 .container {
     text-align: center;
-    margin-top: 80px; /* Sesuaikan margin top dengan tinggi nav */
-    position: relative; /* Tambahkan ini */
-    height: calc(100vh - 20px); /* Sesuaikan tinggi dengan tinggi nav */
+    margin-top: 80px; 
+    position: relative; 
+    height: calc(100vh - 20px); 
 }
 
 h1 {
@@ -39,15 +39,15 @@ h2 {
 }
 
 button {
-    background-color: #555; /* Warna latar belakang tombol */
-    color: #fff; /* Warna teks tombol */
-    padding: 10px 20px; /* Padding tombol */
-    border: none; /* Hilangkan border tombol */
-    cursor: pointer; /* Ubah kursor menjadi pointer saat diarahkan ke tombol */
+    background-color: #555; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none; 
+    cursor: pointer; 
 }
 
 button:hover {
-    background-color: #777; /* Warna latar belakang tombol saat dihover */
+    background-color: #777; 
 }
 
 
@@ -78,13 +78,13 @@ a:hover {
 }
 
 footer {
-    background-color: #333; /* Warna latar belakang footer */
-    color: #fff; /* Warna teks footer */
-    padding: 20px; /* Ruang dalam di sekitar konten footer */
-    text-align: center; /* Pusatkan teks pada footer */
-    position: fixed; /* Tetapkan footer di bagian bawah layar */
-    width: 100%; /* Lebar footer sama dengan lebar layar */
-    bottom: 0; /* Atur posisi footer di bagian bawah */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center; 
+    position: fixed;
+    width: 100%; 
+    bottom: 0; 
     right: 0;
 }
 
